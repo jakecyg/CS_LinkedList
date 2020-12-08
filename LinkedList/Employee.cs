@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
-    internal class Employee : IComparable<Employee>
+    public class Employee : IComparable<Employee>
     {
         internal int EmployeeID { get; }
         internal string FirstName { get; }
