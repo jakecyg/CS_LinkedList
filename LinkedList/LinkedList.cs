@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LinkedList
 {
+    //generic LinkedList class
     public class LinkedList<T> where T : IComparable<T>
     {
         public Node<T> Head { get; set; }
