@@ -11,9 +11,9 @@ namespace LinkedList
         public T Element { get; set; }
         public Node<T> Previous { get; set; }
         public Node<T> Next { get; set; }
-        public Node(T employee = default(T), Node<T> previousNode = null, Node<T> nextNode = null)
+        public Node(T newElement = default(T), Node<T> previousNode = null, Node<T> nextNode = null)
         {
-            this.Element = employee;
+            this.Element = newElement;
             this.Previous = previousNode;
             this.Next = nextNode;
         }
